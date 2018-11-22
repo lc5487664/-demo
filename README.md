@@ -1,0 +1,1 @@
+本demo只是利用本地localstory 注册时存入  登录时判断是否与localstory中值一致 如果一致则跳转到user页面 并同时在ocalstory存入一个状态 保证下次跳转到mine组件时还是登录状态

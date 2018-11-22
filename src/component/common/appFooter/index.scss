@@ -1,0 +1,32 @@
+.footer-box{
+    position: fixed;
+    left:0;bottom:0;
+    width: 100%;
+    background: #fff;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+            width: 1.5rem;
+            height: 0.9rem;
+            display: flex;
+            align-items: center;
+            a{
+                display: block;
+                width:100%;
+                text-align: center;
+                &.active{
+                  color: #f8a120;
+                }
+                i{
+                  display: block;
+                  margin-bottom: 0.1rem;
+                }
+                span{
+                  display: block;
+                }
+            }
+        }
+    }
+}
